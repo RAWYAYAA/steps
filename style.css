@@ -1,0 +1,53 @@
+.navb{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: medium;
+    font-family: copperplate, Helvetica, sans-serif;
+}
+.navc{
+    display: flex;
+    list-style: none;
+    font-size: medium;
+    font-family: cursive;
+    margin-left: 0%;
+}
+ul.navc li+li:before{
+    color: black;
+    content: "/\00a0";
+}
+.logoimg{
+    width: 100px;
+    height: 60px;
+}
+.links{
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+  }
+.text{
+      width: 300px;
+}
+.products{
+    display: flex;
+}
+.produit1{
+    border: solid black 2px;
+    width: 200px;
+    padding: 16px;
+    margin: 10px;
+}
+.pimg{
+    width: 200px;
+}
+.pt2{
+    color: gray;
+}
+.pt4{
+    color: green;
+}
